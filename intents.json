@@ -1,0 +1,41 @@
+{"intents": [
+  {"tag": "greetings",
+   "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how's it going?"],
+   "responses":  ["Hello!", "Hey!", "How have you been today?"]
+  },
+
+  {"tag": "Happy",
+   "patterns": ["happy", "good", "great", "well", "amazing", "buzzing"],
+   "responses":  ["That's great to hear! What's got you in such a good mood?", "I'm so happy to hear you're feeling good! What's been making you so happy?", "Lovely to hear! What's got you so happy today?"]
+  },
+
+  {"tag": "Sad",
+   "patterns": ["sad", "upset", "not well", "down", "bad", "terrible"],
+   "responses":  ["Oh no! I'm sorry to hear that! What's been getting you down?", "That's terrible to hear D: . Want to talk about it?", "Really? Want to talk about it?"]
+  },
+
+  {"tag": "Angry",
+   "patterns": ["angry", "mad", "frustrated", "annoyed", "cross", "vexed"],
+   "responses":  ["Really? I'm sorry to hear that! What's been getting you so angry?", "That's terrible to hear D: . Want to talk about it?", "Really? Want to talk about it?", "Sorry to hear that, how do you usually blow off steam?"]
+  },
+
+  {"tag": "goodbye",
+   "patterns": ["goodbye", "bye", "see ya", "I am leaving", "Have a good day", "cao", "See you later"],
+   "responses":  ["Until next time! :D", "I'll speak to you later!", "Take care of yourself! Speak soon :)"]
+  },
+
+  {"tag": "name",
+   "patterns": ["what's your name?", "what should I call you?", "who are you?", "Can you tell me your name?", "and you are?"],
+   "responses":  ["My name is Amare [AH-MAR-RAY], nice to meet you!", "You can call me Amare [AH-MAR-RAY]", "Glad you asked, my name is Amare [AH-MAR-RAY]"]
+  },
+
+  {"tag": "age",
+   "patterns": ["how old are you?", "How long have  you been around?", "How long have you existed?", "When were you created?"],
+   "responses": ["I was born in 2021, so I'm still a baby!", "I'm quite young, I was born in 2021", "I was created in 2021, so I'm still pretty young!"]
+  },
+
+  {"tag": "emergency hospital",
+   "patterns": ["I need a hospital", "I'm dying", "I've been shot", "I'm bleeding", "Where is the closest hospital", "I cut myself"],
+   "responses":  ["Oh no! Here is some information on emergency centres near you! I recommend calling 999 if this is an emergency"]
+  }
+ ]}
